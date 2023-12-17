@@ -1,0 +1,15 @@
+.input-tag {
+    position: relative;
+}
+
+    .input-tag__list {
+        position: absolute;
+    }
+
+    .tag-select {
+        width: 700px;
+    }
+
+    .add-product-modal {
+        min-height: 250px;
+    }

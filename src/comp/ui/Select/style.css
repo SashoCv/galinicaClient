@@ -1,0 +1,46 @@
+.select-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--color-dark-grey);
+}
+
+    .select-main {
+        height: 50px;
+        background-color: rgb(238, 238, 238);
+        border: none;
+        padding: 0 10px;
+        outline: none;
+        border-radius: 5px;
+        background-image: url(../../../assets/icons/ico-dropdown-arrow.svg);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: calc(100% - 12px);
+    }
+
+    .select-main {
+        appearance: none;
+        /* background-color: #ffffff; */
+        /* border: 1px solid #cccccc; */
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+        .select-main:first-child {
+            /* color: red; */
+        }
+
+      .select-main::after {
+        content: '\25BC';
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        color: red;
+        background-color: red;
+      }
+      
+
+    .select-main:focus {
+        border: none !important;
+    }

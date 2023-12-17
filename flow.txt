@@ -1,0 +1,57 @@
+ 2 more nav links 
+
+STEP 1.  - Sales deals/акции /api/dealStore
+   -- во нив чуваме: 
+    1. nameOfDeal, 
+    2. sumFrom,
+    3. sumTo,
+    4. percentage, 
+    5. dateFrom - ('2023-01'),
+    6. dateTo // JSON - POST METHOD
+
+STEP 2. products on sales deals
+
+    -- во нив чуваме: 
+     1. deal_id
+     2. product_id
+
+    POST METHOD
+
+STEP 3. owner deal store /api/ownerDealStore
+    1. deal_id
+
+    POST METHOD.
+
+STEP 4. get/print deals /api/deals/id
+
+    UI/table: 
+        1. owner name, 
+        2. product name,
+        3. qty,
+        4. price,
+        5. total, 
+        
+
+    GET METHOD
+
+// FILTERS - owner only
+
+1. Kreirame deal. 
+2. Imame posebno view za toj deal kade sto mozi da dodadime produkti za toj deal.
+3. od koga ke se dodadat produkti koga ke zavrsi toj mesec na deal go prakame na deal STEP 3. 
+4. kopce view dDDDDD // vidi gi sopstvenicite koi ja ispolnuvaat akcijata/deal-ot
+
+
+// 10 mesec 
+
+// FINANCIALS FLOW 
+
+AKO OWNERS E selektirano - city and drugstore should be disabled. 
+DATE FROM AND DATE TO MANDATORY.
+
+
+
+
+
+
+

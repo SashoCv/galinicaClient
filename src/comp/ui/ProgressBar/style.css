@@ -1,0 +1,34 @@
+.progress-bar__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    .progress-bar__header {
+        display: flex;
+        justify-content: space-between;
+        /* gap: 100%; */
+        width: 100%;
+    }
+
+    .progress-bar {
+        height: 8px;
+        width: 100%;
+        background: rgba(73, 138, 73, 0.24);
+    }
+
+        .progress-bar__value {
+            height: 100%;
+            /* width: 60%; */
+            background: rgb(73, 138, 73);
+        }
+
+    .progress-bar.blue {
+        height: 6px;
+        background: rgb(31, 120, 223, 0.24);
+    }
+
+        .progress-bar.blue .progress-bar__value {
+            background: rgb(31, 120, 223);
+        }

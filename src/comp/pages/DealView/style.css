@@ -1,0 +1,72 @@
+.deal-view {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.deal-view__header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.deal-view__header button {
+    width: 150px;
+    margin-top: 0;
+}
+
+.add-product-modal > span {
+    padding: 10px 0;
+    display: inline-block;
+    font-size: 16;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(83, 83, 83);
+}
+
+.deal-view-tabs {
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+
+.deal-view-tabs li {
+    padding: 20px 50px;
+    background: #D6D6D6;
+    color: #498a49;
+    font-weight: 500;
+    cursor: pointer;
+    /* border-top-left-radius: 5px; */
+    /* border-top-right-radius: 5px; */
+    border-radius: 5px;
+    border: 1px solid #d1d1d152;
+    border-bottom: none;
+    /* position: relative; */
+}
+
+.deal-view-tabs li.active {
+    background: #F7F7F7;
+}
+
+.deal-view-tabs li.disabled {
+    cursor: default;
+}
+
+.deal-view-tabs button {
+    margin-top: 0;
+}
+
+.deal-view-header {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deal-view-header button {
+    width: 150px;
+    margin-top: 0;
+    margin-right: 20px;
+    /* padding: 20px; */
+}

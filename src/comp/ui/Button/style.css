@@ -1,0 +1,50 @@
+.btn {
+    background: rgb(73, 138, 73);
+    display: flex;
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn.ghost {
+    background: rgba(73, 138, 73, 0.24);
+    color: rgb(73, 138, 73);
+}
+
+.btn.warning {
+    background: #E64878;
+}
+
+.spinner {
+    /* margin-top: 120px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .spinner div {
+        border: 2px solid #f3f3f3;
+        border-top: 4px solid var(--orange);
+        border-radius: 50%;
+        width: 15px;
+        margin: 0 15px;
+        height: 15px;
+        animation: spin 2s linear infinite;
+    }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

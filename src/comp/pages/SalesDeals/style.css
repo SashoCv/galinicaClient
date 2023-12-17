@@ -1,0 +1,60 @@
+.deals-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+    .deals-list__header {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px;
+    }
+
+        .deals-list__header span {
+            font-size: 25px;
+            font-weight: 500;
+            color: var(--color-dark-grey);
+        }
+
+        .deals-list__header button {
+            max-width: fit-content;
+            margin-left: auto;
+            margin-right: 20px;
+            /* padding-bottom: 30px; */
+            margin-top: -5px;
+            /* justify-self: center; */
+            /* align-self: center; */
+        }
+
+    .deals-row {
+        display: flex;
+        width: 100%;
+        padding: 20px 0;
+        border-bottom: 1px solid var(--color-light-grey);
+    }
+
+    .deals-row__add {
+        font-size: 14px;
+        background: var(--color-green-btn);
+        padding: 5px 10px;
+        color: var(--color-white);
+        display: block;
+        margin-top: -5px;
+        font-weight: 500;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+.deals-modal {
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    /* height: 400px; */
+    gap: 40px;
+}
+
+.deals-custom-input {
+    min-width: 300px;
+}

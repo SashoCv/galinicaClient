@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 19 19">
+  <g id="Group_850" data-name="Group 850" transform="translate(-459 1023)">
+    <rect id="Rectangle_47" data-name="Rectangle 47" width="19" height="19" transform="translate(459 -1023)" fill="#00C853"/>
+    <g id="Group_851" data-name="Group 851" transform="translate(0 -1)">
+      <rect id="Rectangle_48" data-name="Rectangle 48" width="9" height="10" transform="translate(464 -1018)" fill="#fff"/>
+      <path id="portrait-solid" d="M11.722,0H1.675A1.675,1.675,0,0,0,0,1.675V16.188a1.675,1.675,0,0,0,1.675,1.675H11.722A1.675,1.675,0,0,0,13.4,16.188V1.675A1.675,1.675,0,0,0,11.722,0ZM6.7,4.466A2.233,2.233,0,1,1,4.466,6.7,2.235,2.235,0,0,1,6.7,4.466Zm3.907,8.262a.732.732,0,0,1-.781.67H3.573a.732.732,0,0,1-.781-.67v-.67a2.2,2.2,0,0,1,2.344-2.01H5.31a3.594,3.594,0,0,0,2.777,0h.174a2.2,2.2,0,0,1,2.344,2.01Z" transform="translate(461.863 -1022)" fill="#00C853"/>
+    </g>
+  </g>
+</svg>

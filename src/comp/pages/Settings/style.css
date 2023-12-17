@@ -1,0 +1,158 @@
+.settings-v2 {
+    background: white;
+    margin-top: 20px;
+    height: 700px;
+}
+
+.settings-v2__header {
+    background: #488B46;
+    padding: 15px 30px;
+}
+
+.settings-v2__header span {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    /* padding: 10px 30px; */
+}
+
+.settings-sidebar {
+    /* background: red; */
+    min-width: 220px;
+    height: 100%;
+}
+
+.settings-v2__main {
+    display: flex;
+    /* height: 640px; */
+    /* height: calc(100% -50px) */
+}
+
+.settings-sidebar ul {
+    /* display: flex; */
+    border: 1px solid rgba(128, 128, 128, 0.171);
+}
+
+.settings-sidebar ul li {
+    padding: 20px 20px;
+    color: #488B46;
+    border-top: 1px solid rgba(128, 128, 128, 0.171);
+    text-align: center;
+    font-weight: 500;
+}
+
+.settings-sidebar ul li:hover {
+    background: rgba(73, 138, 73, 0.24);
+}
+
+
+/* USER */
+.add-user {
+    padding: 50px 100px;
+    width: 100%;
+}
+
+.add-user h1,
+.settings-header-label {
+    display: flex;
+    align-items: center;
+    color: #498a49;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.add-user h1::after,
+.settings-header-label::after {
+    background: rgba(192, 192, 192, 0.335);
+    height: 1px;
+    flex: 1 1;
+    content: '';
+    margin-left: 20px;
+}
+
+.add-user__fields {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.add-user__fields-group {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.add-user__fields-group__password {
+    max-width: 390px;
+}
+
+.add-user__fields-group button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 2px;
+}
+
+.add-user__fields-group__role {
+    /* height: 30px; */
+    width: 200px;
+}
+
+.css-1dmjchh-control {
+    /* height: 20px !important; */
+}
+
+.users {
+    width: 100%;
+}
+
+.users-header {
+    display: flex;
+    /* background: yellow; */
+    padding: 10px 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+    /* gap: 20px; */
+}
+
+.users-header span {
+    min-width: 230px;
+    color: var(--color-dark-grey);
+    /* dis */
+}
+
+.users-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.users-list div {
+    display: flex;
+    padding: 10px 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.212);
+}
+
+.users-list div span {
+    min-width: 230px;
+}
+
+.target {
+    width: 100%;
+    padding: 25px 25px;
+}
+
+.target-fields__group {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.target-fields__group button {
+    width: 200px;
+}
+
+.target-year {
+    max-width: 290px;
+}

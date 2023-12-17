@@ -1,0 +1,105 @@
+.table {
+    /* height: 100%; */
+    width: 99%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* padding: 0 30px; */
+}
+
+    .table-header {
+        /* background: var(--color-medium-grey); */
+        /* margin-bottom: 10px; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0;
+        border-radius: 3px;
+        color: #498a49;
+        border-bottom: 1px solid var(--color-light-grey);
+        border-top: 1px solid var(--color-light-grey);
+        padding: 20px 30px;
+        /* padding-left: 20px; */
+        /* padding-right: 30px; */
+        /* padding-right: 40px; */
+    }
+
+        .table-header tr {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .table-header th {
+            /* background-color: red; */
+            width: 100%;
+            text-align: left;
+            /* min-width: 280px; */
+            /* padding-left: 20px; */
+            font-weight: 500;
+            /* color: var(--color-dark-grey); */
+        }
+
+    .table-body {
+        /* background: blue; */
+        width: 100%;
+        height: 100%;
+        /* padding: 0 30px; */
+        /* padding-right: 40px; */
+    }
+
+        .table-body td {
+            /* background-color: green; */
+            width: 100%;
+            display: flex;
+            /* background: red; */
+            /* padding-left: 20px; */
+            /* padding-right: 30px; */
+            /* text-align: center; */
+            /* justify-content: center; */
+            /* display: flex; */
+            /* flex-direction: row; */
+            /* height: 100px; */
+            /* width: 100%; */
+        }
+
+
+
+        .table-body td div {
+            /* width: 100%; */
+            /* width: 100px; */
+            display: flex;
+        }
+
+        .left-auto__header {
+            text-align: right !important;
+            /* padding-right: 30px; */
+        }
+
+        .left-auto {
+            margin-left: auto;
+            justify-content: end;
+            text-align: right !important;
+            /* margin-right: 30px; */
+        }
+
+        .price__header {
+            /* padding-left: 50px; */
+        }
+
+.dark {
+    background-color: #F7F7F7;
+    margin: 0;
+    width: 100%;
+}
+
+.dark .table-header {
+    border-top: none;
+}
+    .dark .table-header th {
+        color: var(--color-grey);
+    }
+
+    /* .darl */
+        

@@ -1,0 +1,25 @@
+.upload-doc {
+    cursor: pointer;
+    background: var(--color-green-btn);
+    color: var(--color-white);
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    margin-top: 30px;
+    position: relative;
+}
+
+    .upload-doc__input {
+        display: none;
+    }
+
+    .upload-doc__error {
+        position: absolute;
+        bottom: -17px;
+        font-size: 14px;
+        left: 0;
+        color: var(--color-toast-red);
+    }

@@ -1,0 +1,158 @@
+.owners-details {
+    width: 100%;
+    padding: 30px;
+}
+
+    .owners-header {
+
+    }
+
+    .owners-navbar {
+        /* background: red; */
+        background: rgba(73, 138, 73, 0.24);
+        padding: 10px 20px;
+        gap: 5px;
+        display: flex;
+        border-radius: 10px;
+    }       
+
+        .owners-navbar__nav-link {
+            text-decoration: none;
+            color: rgb(73, 138, 73);
+            font-weight: 500;
+            padding: 5px 10px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .owners-navbar__nav-link.active {
+            background: rgb(73, 138, 73);
+            color: rgb(220, 255, 220);
+        }
+
+        .owners-details__main-wrapper {
+            width: 100%;
+            height: calc(100% - 140px);
+            /* height: 100%; */
+            /* background-color: red; */
+            /* padding: 20px; */
+            padding-top: 15px;
+            /* padding-bottom: 15px; */
+        }
+
+        .owners-details__main {
+            padding: 30px;
+            background: var(--color-white);
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            position: relative;
+        }
+
+    .owner-details__sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+        .owner-details__sidebar__name {
+            font-size: 28px;
+        }
+
+        .owner-details__sidebar__email {
+            font-size: 12px;
+            color: var(--color-dark-grey);
+        }
+
+
+/* V2 DESIGN */
+
+.owners-details-v2 {
+    margin-top: 20px;
+    background: var(--color-white);
+    width: 1200px;
+    height: 100%;
+    /* filter: drop-shadow(1px 0px 7px #0000001f); */
+    /* border: 1px solid rgba(128, 128, 128, 0.111); */
+    /* height: 100px; */
+    /* border: 1px solid red; */
+}
+
+    .owners-details-v2__header {
+        height: 80px;
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        border: 1px solid #d1d1d18b;
+        border-radius: 5px;
+        box-shadow: 0px 2px 2px -2px rgba(0,0,0,0.2);
+    }
+
+        .owners-details-v2__header > span {
+            font-size: 25px;
+            font-weight: 500;
+            color: #498a49;
+        }
+
+        .owners-details-v2__bck-btn {
+            display: flex;
+            gap: 20px;
+            cursor: pointer;
+            /* margin-top: 30px; */
+        }
+    
+            .owners-details-v2__bck-btn span {
+                color: #488B46;
+                font-weight: 500;
+                font-size: 18px;
+            }
+
+    .owners-details-v2__main {
+        /* margin-top: 50px; */
+        padding-top: 20px;
+        /* box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.154); */
+        min-height: 550px;
+        background: white;
+    }
+
+        .owners-details-v2__main-tabs {
+            display: flex;
+            position: relative;
+            /* border-bottom: 1px solid #D1D1D1; */
+            /* background: red; */
+        }
+        
+        .owners-details-v2__main-tabs li:last-child::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 377px;
+            display: flex;
+            flex: 1;
+            height: 1px;
+            background: #d1d1d152;
+            /* color: red; */
+            width: calc(100% - 377px);
+        }
+
+            .owners-details-v2__main-tabs li {
+                padding: 20px 50px;
+                background: #D6D6D6;
+                color: #498a49;
+                font-weight: 500;
+                cursor: pointer;
+                /* border-top-left-radius: 5px; */
+                /* border-top-right-radius: 5px; */
+                border-radius: 5px;
+                border: 1px solid #d1d1d152;
+                border-bottom: none;
+                /* position: relative; */
+            }
+
+            .owners-details-v2__main-tabs li.active {
+                background: #F7F7F7;
+            }

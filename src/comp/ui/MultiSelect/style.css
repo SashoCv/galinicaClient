@@ -1,0 +1,16 @@
+.multi-select {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+    .multi-select span {
+        color: #979999;
+        font-weight: 500;
+    }
+
+    .multi-select-main > div {
+        /* min-height: 50px !important; */
+        /* border-radius: 5px !important; */
+        /* border-color: #D9D9D9; */
+    }

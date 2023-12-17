@@ -1,0 +1,28 @@
+.settings-reports {
+    /* width: 600px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 10px; */
+    /* padding-top: ; */
+    /* padding: 30px; */
+    padding: 50px 100px;
+    width: 100%;
+}
+
+    .settings-reports h2 {
+        margin-bottom: 50px;
+    }
+
+    .settings-reports > * {
+        margin-bottom: 20px;
+    }
+
+.settings-reports__fields-group {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.settings-report__input {
+max-width: 300px;
+}

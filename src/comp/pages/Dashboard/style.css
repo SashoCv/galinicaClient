@@ -1,0 +1,214 @@
+.dashboard {
+    /* width: 100%; */
+    width: calc(100% - 300px);
+    padding: 20px;
+}
+
+    .dashboard-filters {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* padding: 0 5px; */
+    }
+
+        .dashboard-filters > :first-child {
+            /* border-top: 1px solid var(--color-light-grey); */
+            position: relative;
+        }
+
+        .dashboard-filters > :first-child::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 10px; /* Adjust according to the fade length you desire from the sides */
+            right: 10px; /* Adjust according to the fade length you desire from the sides */
+            height: 1px; /* Border thickness */
+            background: linear-gradient(to right, transparent, rgba(143, 143, 143, 0.429), transparent);
+        }
+
+        .dashboard-filters > *::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 10px; /* Adjust according to the fade length you desire from the sides */
+            right: 10px; /* Adjust according to the fade length you desire from the sides */
+            height: 1px; /* Border thickness */
+            background: linear-gradient(to right, transparent, rgba(143, 143, 143, 0.429), transparent); /* Adjust the colors as needed */
+            /* z-index: 1; */
+        }
+
+        .dashboard-filters > * {
+            position: relative;
+
+            /* border-bottom: 1px solid var(--color-light-grey); */
+            padding-top: 15px;
+            padding-bottom: 35px;
+        }
+
+            .dashboard-filters__group {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                /* padding: 40px 0; */
+            }
+
+                .dashboard-filters__group > span {
+                    /* color: var(--color-dark-grey); */
+                    font-weight: 500;
+                    color: #979999;
+                    padding-bottom: 10px;
+                }
+
+                .dashboard-filters__group .input-label {
+                    font-size: 14px;
+                }
+
+    .dashboard-top {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+        .dashboard-top__card {
+            height: 300px;
+            flex: 1;
+            background-color: var(--color-white);
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .dashboard-top__card:first-of-type {
+            background: rgba(50, 141, 55, 0.849);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+            .circle {
+                /* background: red; */
+                /* opacity: .7; */
+                background: rgb(50, 141, 55);
+                
+                position: absolute;
+                border-radius: 50%;
+            }
+
+                .circle.one {
+                    /* margin-left: -50px; */
+                    right: -70px;
+                    top: -60px;
+                    width: 200px;
+                    height: 200px;
+                    /* z-index: -100; */
+                    /* overflow: hidden; */
+                }
+
+                .circle.two {
+                    background: rgba(50, 141, 55, 0.411);
+                    width: 140px;
+                    height: 140px;
+                    right: 40px;
+                    top: -60px;
+
+                }
+
+                .total-earning {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    margin-left: 40px;
+                }
+
+                    .total-earning__value {
+                        color: var(--color-white);
+                        font-size: 40px;
+                        font-weight: 500;
+                    }
+
+                    .total-earning__label {
+                        color: var(--color-white);
+                        opacity: .5;
+                    }
+
+            .dashboard-top__card-title,
+            .dashboard-top__card-header {
+                border-bottom: 1px solid rgb(228, 228, 228);
+                padding: 25px;
+                font-size: 18px;
+            }
+
+            .dashboard-top__card-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+                .dashboard-top__card-header select {
+                    width: 100px;
+                    outline: none;
+                    border: none;
+                    padding: 15px 10px;
+                    border-radius: 5px;
+                    appearance: none;
+                    background-image: url(../../../assets/icons/ico-dropdown-arrow.svg);
+                    background-repeat: no-repeat;
+                    background-position-y: center;
+                    background-position-x: calc(100% - 12px);
+                }
+
+            .dashboard-top__card-main {
+                padding: 40px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                /* flex: 1; */
+                gap: 20px;
+            }
+
+                .dashboard-top__card-main > span {
+                    font-weight: 600;
+                    font-size: 22px;
+                }
+
+                .dashboard-top__card-main__group {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+
+                    .dashboard-top__card-main__group > div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 10px;
+                    }
+
+                        .dashboard-top__card-main__group span:first-child {
+                            font-size: 12px;
+                            color: var(--color-dark-grey);
+                        }
+
+                        .dashboard-top__card-main__group span:last-child {
+                            font-weight: 600;
+                        }
+
+    .dashboart-chart__header {
+        border-bottom: 2px solid var(--color-light-grey);
+        padding: 20px;
+        font-size: 22px;
+    }
+
+    .dashboard-chart {
+        width: 100%;
+        /* margin: 20px; */
+        background: white;
+        border-radius: 10px;
+        /* padding: 30px; */
+    }
+
+    .dashboard-sidebar__actions {
+        display: flex;
+        gap: 10px;
+    }

@@ -1,0 +1,84 @@
+.form-switch {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 1px solid rgb(211, 211, 211);
+    width: fit-content;
+    justify-content: center;
+    border-radius: 30px;
+    /* padding-top: 10px !important; */
+    /* padding-bottom: 10px !important; */
+    padding: 10px 15px !important
+}
+
+.form-switch.full {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: start;
+    /* font-size: 20px; */
+}
+    .form-switch.disabled {
+        color: var(--clr-grey);
+        cursor: not-allowed;
+    }
+
+    .form-switch > input {
+        display: none;
+    }
+
+    .form-switch__label {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        margin-left: 10px;
+        color: #979999;
+    }
+
+    .form-switch__pill {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        position: relative;
+        transition: all .2s ease-in-out;
+        /* background-color: var(--clr-grey); */
+        /* background-color: rgba(255, 255, 255, 0.396); */
+        background: transparent;
+        border: 1px solid rgba(163, 163, 163, 0.338);   
+        /* display: none; */
+    }
+    
+    .form-switch > input:checked + .form-switch__pill {
+        /* background-color: var(--clr-darkblue); */
+        background-color: darkblue;
+    }
+
+    .form-switch > input:checked + .form-switch__pill.blurple {
+        /* background-color: var(--clr-azami-blurple); */
+        background-color: rgb(73, 138, 73);
+    }
+
+    .form-switch__ball {
+        display: block;
+        /* background-color: var(--clr-white); */
+        background-color: rgb(169, 65, 65);
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        transition: all .2s ease-in-out;
+        display: none;
+    }
+
+    .form-switch > input:checked + .form-switch__pill .form-switch__ball {
+        /* left: 20px; */
+    }
+
+    .form-switch img {
+        width: 25px;
+        margin-right: 10px;
+    }
